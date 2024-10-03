@@ -13,12 +13,7 @@ jenkins-global:
   sleepBeforeEachTabOpens: 10
 
 deployment:
-  pricing-order:
-    url: /job/manage/ENVIRONMENT/build?delay=0sec
-    deploy: true
-    action: status
-    version: 1.0.0
-  tax-rs:
+  service-name:
     url: /job/manage/ENVIRONMENT/build?delay=0sec
     deploy: true
     action: status
