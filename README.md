@@ -8,3 +8,8 @@ If your project/application has multiple services to be deployed, we can use thi
 
 
 This is a hobby project, wanted to learn python, selenium. so created this utility to learn and reduce time in deployments!
+
+
+# pre requisite
+download and place chromedriver on your path in a folder "chrome-web-driver", i've already excluded this in .gitignore 
+download URL - https://googlechromelabs.github.io/chrome-for-testing/
