@@ -1,0 +1,25 @@
+
+jenkins-global:
+  environment: load-env
+  globalActionEnabled: true
+  globalAction: update
+  baseurl: https://jenkins.dp.net
+  J_USERNAME: username
+  J_PASS: test
+  successMsg: 'Finished: SUCCESS'
+  maxTimeForTab: 240
+  maxTimeForWholeRun: 15 # IN MINUTES
+  sleepBeforeEachCycleStart: 20
+  sleepBeforeEachTabOpens: 10
+
+deployment:
+  pricing-order:
+    url: /job/manage/ENVIRONMENT/build?delay=0sec
+    deploy: true
+    action: status
+    version: 1.0.0
+  tax-rs:
+    url: /job/manage/ENVIRONMENT/build?delay=0sec
+    deploy: true
+    action: status
+    version: 1.0.0
